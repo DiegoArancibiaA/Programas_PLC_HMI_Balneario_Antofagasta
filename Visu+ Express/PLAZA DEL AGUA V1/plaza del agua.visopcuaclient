@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<OPCClientEditor>
+<OPCUAClientData StartupWaitTimeout="30000" DiscoveryUrl="opc.tcp://localhost:4840"/>
+<OPCUAList>
+<UAServer>
+<Server Endpoint="opc.tcp://192.168.1.10:4840" ApplUri="" SecMode="2" SecPol="" StrongSec="0" ReconnectTime="10000" User="opcua" Pwd="1234567890" BackupEndpoint="" StatusVariable="" Retries="3">opc.tcp://192.168.1.10:4840-SignAndEncrypt</Server>
+<NSTable n0="http://opcfoundation.org/UA/" n1="urn:axc-f-1152-1:PhoenixContact:eUAServer" n2="http://opcfoundation.org/UA/DI/" n3="http://phoenixcontact.com/OpcUA/PLCnext/" n4="http://phoenixcontact.com/OpcUA/Devices/AXCF1152" n5="http://phoenixcontact.com/OpcUA/PLCnext/Devices/" n6="http://phoenixcontact.com/OpcUA/PLCnext/GlobalDataSpace/" n7="http://phoenixcontact.com/OpcUA/PLCnext/Alarms/" n8="http://phoenixcontact.com/OpcUA/PLCnext/UAClientConfig/"/>
+<SessionList>
+<Session>
+<Name ConnTO="2000" WatchTO="5000" AutoReconn="1" SamplInt="500" PubInt="1000" SamplIntNotInUse="3000" WatchTime="5000" SessTO="60000" DefNS="" SessVar="" SessEn="1">Session one</Name>
+<ItemList>
+<Item>
+<ItemName NodeId="i=15427" Variable="Server_ServerCapabilities_RoleSet_Supervisor_EndpointsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Supervisor_EndpointsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=3;i=6004" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__NamespaceVersion" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__NamespaceVersion</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15428" Variable="Server_ServerCapabilities_RoleSet_ConfigureAdmin_ApplicationsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_ConfigureAdmin_ApplicationsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=3;i=6005" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__StaticNodeIdTypes" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__StaticNodeIdTypes</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15429" Variable="Server_ServerCapabilities_RoleSet_ConfigureAdmin_EndpointsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_ConfigureAdmin_EndpointsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=3;i=6006" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__StaticNumericNodeIdRange" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__StaticNumericNodeIdRange</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=3;i=6007" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__StaticStringNodeIdPattern" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__StaticStringNodeIdPattern</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15958" Variable="Server_Namespaces_http___opcfoundation_org_UA__NamespaceUri" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA__NamespaceUri</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;g=5936a912-4dac-48b1-ab12-9da861175ae8" Variable="Server_VendorServerInfo_Trace_MaxEntries" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_Trace_MaxEntries</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15959" Variable="Server_Namespaces_http___opcfoundation_org_UA__NamespaceVersion" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA__NamespaceVersion</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral11.M20" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral11_M20" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral11_M20</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V30" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V30" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V30</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;g=9d15fb6b-818f-421a-b822-bdcf8963e029" Variable="Server_VendorServerInfo_Trace_TraceEventLevel" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_Trace_TraceEventLevel</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V31" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V31" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V31</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=5;s=ThisDevice.SoftwareRevision" Variable="DeviceSet_AXC_F_1152_SoftwareRevision" EnableWrite="1" EnableRead="1">DeviceSet_AXC_F_1152_SoftwareRevision</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V32" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V32" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V32</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V33" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V33" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V33</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_SecureChannel" Variable="Server_VendorServerInfo_ObjectStatistics_SecureChannel" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_SecureChannel</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V34" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V34" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V34</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V35" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V35" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V35</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=5;s=ThisDevice.DeviceHealth" Variable="DeviceSet_AXC_F_1152_DeviceHealth" EnableWrite="1" EnableRead="1">DeviceSet_AXC_F_1152_DeviceHealth</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V36" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V36" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V36</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral21.M50" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral21_M50" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral21_M50</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V37" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V37" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V37</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=5;s=ThisDevice.SerialNumber" Variable="DeviceSet_AXC_F_1152_SerialNumber" EnableWrite="1" EnableRead="1">DeviceSet_AXC_F_1152_SerialNumber</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=16270" Variable="Server_ServerCapabilities_RoleSet_ConfigureAdmin_Applications" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_ConfigureAdmin_Applications</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=25567" Variable="Server_ServerCapabilities_RoleSet_SecurityKeyServerAdmin_ApplicationsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityKeyServerAdmin_ApplicationsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V38" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V38" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V38</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=25568" Variable="Server_ServerCapabilities_RoleSet_SecurityKeyServerAdmin_Applications" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityKeyServerAdmin_Applications</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V39" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V39" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V39</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=25569" Variable="Server_ServerCapabilities_RoleSet_SecurityKeyServerAdmin_EndpointsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityKeyServerAdmin_EndpointsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=16226" Variable="Server_ServerCapabilities_RoleSet_Operator_Applications" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Operator_Applications</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=2;i=15002" Variable="Server_Namespaces_http___opcfoundation_org_UA_DI__NamespaceUri" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA_DI__NamespaceUri</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_UaMethod" Variable="Server_VendorServerInfo_ObjectStatistics_UaMethod" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_UaMethod</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=2;i=15003" Variable="Server_Namespaces_http___opcfoundation_org_UA_DI__NamespaceVersion" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA_DI__NamespaceVersion</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_UaObject" Variable="Server_VendorServerInfo_ObjectStatistics_UaObject" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_UaObject</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11242" Variable="Server_ServerCapabilities_HistoryServerCapabilities_AccessHistoryEventsCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_AccessHistoryEventsCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_SecureChannelCumulated" Variable="Server_VendorServerInfo_ObjectStatistics_SecureChannelCumulated" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_SecureChannelCumulated</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=2;i=15005" Variable="Server_Namespaces_http___opcfoundation_org_UA_DI__IsNamespaceSubset" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA_DI__IsNamespaceSubset</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;g=4c3aca48-9c72-4eca-b25f-95ed146b6c17" Variable="Server_VendorServerInfo_Trace_TraceLevel" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_Trace_TraceLevel</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=2;i=15006" Variable="Server_Namespaces_http___opcfoundation_org_UA_DI__StaticNodeIdTypes" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA_DI__StaticNodeIdTypes</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;g=699a3a99-7737-438f-84c6-3d27a12f8c5a" Variable="Server_VendorServerInfo_Trace_MaxBackupFiles" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_Trace_MaxBackupFiles</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=2;i=15007" Variable="Server_Namespaces_http___opcfoundation_org_UA_DI__StaticNumericNodeIdRange" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA_DI__StaticNumericNodeIdRange</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=2;i=15008" Variable="Server_Namespaces_http___opcfoundation_org_UA_DI__StaticStringNodeIdPattern" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA_DI__StaticStringNodeIdPattern</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=5;s=ThisDevice.HardwareRevision" Variable="DeviceSet_AXC_F_1152_HardwareRevision" EnableWrite="1" EnableRead="1">DeviceSet_AXC_F_1152_HardwareRevision</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=12639" Variable="Server_ServerConfiguration_SupportedPrivateKeyFormats" EnableWrite="1" EnableRead="1">Server_ServerConfiguration_SupportedPrivateKeyFormats</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15430" Variable="Server_ServerCapabilities_RoleSet_SecurityAdmin_ApplicationsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityAdmin_ApplicationsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;g=95c50615-4064-4480-9985-760e59533772" Variable="Server_VendorServerInfo_Trace_DisableFlush" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_Trace_DisableFlush</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15961" Variable="Server_Namespaces_http___opcfoundation_org_UA__IsNamespaceSubset" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA__IsNamespaceSubset</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15962" Variable="Server_Namespaces_http___opcfoundation_org_UA__StaticNodeIdTypes" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA__StaticNodeIdTypes</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_MonitoredItemData" Variable="Server_VendorServerInfo_ObjectStatistics_MonitoredItemData" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_MonitoredItemData</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=2294" Variable="Server_ServerDiagnostics_EnabledFlag" EnableWrite="1" EnableRead="1">Server_ServerDiagnostics_EnabledFlag</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15963" Variable="Server_Namespaces_http___opcfoundation_org_UA__StaticNumericNodeIdRange" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA__StaticNumericNodeIdRange</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15964" Variable="Server_Namespaces_http___opcfoundation_org_UA__StaticStringNodeIdPattern" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA__StaticStringNodeIdPattern</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_UaObjectType" Variable="Server_VendorServerInfo_ObjectStatistics_UaObjectType" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_UaObjectType</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral11.Efecto_1" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral11_Efecto_1" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral11_Efecto_1</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral11.Efecto_2" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral11_Efecto_2" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral11_Efecto_2</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=4;i=6003" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_IsNamespaceSubset" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_IsNamespaceSubset</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral11.Efecto_3" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral11_Efecto_3" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral11_Efecto_3</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_Subscription" Variable="Server_VendorServerInfo_ObjectStatistics_Subscription" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_Subscription</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=4;i=6005" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_NamespaceUri" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_NamespaceUri</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=4;i=6006" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_NamespaceVersion" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_NamespaceVersion</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=4;i=6007" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_StaticNodeIdTypes" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_StaticNodeIdTypes</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral11.M30" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral11_M30" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral11_M30</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V40" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V40" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V40</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=4;i=6008" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_StaticNumericNodeIdRange" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_StaticNumericNodeIdRange</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V41" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V41" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V41</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=4;i=6009" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_StaticStringNodeIdPattern" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_Devices_AXCF1152_StaticStringNodeIdPattern</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V42" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V42" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V42</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V43" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V43" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V43</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V44" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V44" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V44</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V45" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V45" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V45</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V46" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V46" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V46</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=3709" Variable="Server_ServerRedundancy_RedundancySupport" EnableWrite="1" EnableRead="1">Server_ServerRedundancy_RedundancySupport</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral21.M60" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral21_M60" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral21_M60</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V47" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V47" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V47</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V48" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V48" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V48</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V49" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V49" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V49</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11200" Variable="Server_ServerCapabilities_HistoryServerCapabilities_DeleteAtTimeCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_DeleteAtTimeCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=12640" Variable="Server_ServerConfiguration_MaxTrustListSize" EnableWrite="1" EnableRead="1">Server_ServerConfiguration_MaxTrustListSize</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=12641" Variable="Server_ServerConfiguration_MulticastDnsEnabled" EnableWrite="1" EnableRead="1">Server_ServerConfiguration_MulticastDnsEnabled</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=16237" Variable="Server_ServerCapabilities_RoleSet_Engineer_Applications" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Engineer_Applications</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=8;i=6069" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__IsNamespaceSubset" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__IsNamespaceSubset</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=5;s=ThisDevice.AssetId" Variable="DeviceSet_AXC_F_1152_AssetId" EnableWrite="1" EnableRead="1">DeviceSet_AXC_F_1152_AssetId</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=5;s=ThisDevice.DeviceManual" Variable="DeviceSet_AXC_F_1152_DeviceManual" EnableWrite="1" EnableRead="1">DeviceSet_AXC_F_1152_DeviceManual</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=12165" Variable="Server_ServerCapabilities_OperationLimits_MaxNodesPerHistoryReadData" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxNodesPerHistoryReadData</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=12166" Variable="Server_ServerCapabilities_OperationLimits_MaxNodesPerHistoryReadEvents" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxNodesPerHistoryReadEvents</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=12167" Variable="Server_ServerCapabilities_OperationLimits_MaxNodesPerHistoryUpdateData" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxNodesPerHistoryUpdateData</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_UaNode" Variable="Server_VendorServerInfo_ObjectStatistics_UaNode" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_UaNode</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=5;s=ThisDevice.ProductCode" Variable="DeviceSet_AXC_F_1152_ProductCode" EnableWrite="1" EnableRead="1">DeviceSet_AXC_F_1152_ProductCode</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11502" Variable="Server_ServerCapabilities_HistoryServerCapabilities_DeleteEventCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_DeleteEventCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=12168" Variable="Server_ServerCapabilities_OperationLimits_MaxNodesPerHistoryUpdateEvents" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxNodesPerHistoryUpdateEvents</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_UaView" Variable="Server_VendorServerInfo_ObjectStatistics_UaView" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_UaView</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;g=8c066ae0-6fba-4e10-8b9b-4929814175d8" Variable="Server_VendorServerInfo_Trace_IsActive" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_Trace_IsActive</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral21.Efecto_4" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral21_Efecto_4" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral21_Efecto_4</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral21.Efecto_5" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral21_Efecto_5" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral21_Efecto_5</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral21.Efecto_6" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral21_Efecto_6" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral21_Efecto_6</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=2254" Variable="Server_ServerArray" EnableWrite="1" EnableRead="1">Server_ServerArray</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=12710" Variable="Server_ServerConfiguration_ServerCapabilities" EnableWrite="1" EnableRead="1">Server_ServerConfiguration_ServerCapabilities</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;g=beab1aa8-457f-4a70-bd0a-830fff7cb04f" Variable="Server_VendorServerInfo_Trace_StackTraceLevel" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_Trace_StackTraceLevel</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=2735" Variable="Server_ServerCapabilities_MaxBrowseContinuationPoints" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_MaxBrowseContinuationPoints</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=2255" Variable="Server_NamespaceArray" EnableWrite="1" EnableRead="1">Server_NamespaceArray</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=2736" Variable="Server_ServerCapabilities_MaxQueryContinuationPoints" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_MaxQueryContinuationPoints</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=2737" Variable="Server_ServerCapabilities_MaxHistoryContinuationPoints" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_MaxHistoryContinuationPoints</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V50" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V50" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V50</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V51" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V51" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V51</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V52" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V52" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V52</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V53" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V53" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V53</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11193" Variable="Server_ServerCapabilities_HistoryServerCapabilities_AccessHistoryDataCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_AccessHistoryDataCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V54" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V54" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V54</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=2;i=6387" Variable="Server_ServerCapabilities_MaxInactiveLockTime" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_MaxInactiveLockTime</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V55" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V55" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V55</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;g=7cc13418-4d3b-4227-ad93-3b6f33da5a5b" Variable="Server_VendorServerInfo_Trace_TraceFile" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_Trace_TraceFile</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=8;i=6071" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__NamespaceUri" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__NamespaceUri</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V56" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V56" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V56</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V1" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V1" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V1</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=25586" Variable="Server_ServerCapabilities_RoleSet_SecurityKeyServerPush_ApplicationsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityKeyServerPush_ApplicationsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=8;i=6072" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__NamespaceVersion" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__NamespaceVersion</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11196" Variable="Server_ServerCapabilities_HistoryServerCapabilities_InsertDataCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_InsertDataCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V57" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V57" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V57</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V2" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V2" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V2</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=25587" Variable="Server_ServerCapabilities_RoleSet_SecurityKeyServerPush_Applications" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityKeyServerPush_Applications</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=8;i=6073" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__StaticNodeIdTypes" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__StaticNodeIdTypes</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11197" Variable="Server_ServerCapabilities_HistoryServerCapabilities_ReplaceDataCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_ReplaceDataCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V58" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V58" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V58</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V3" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V3" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V3</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=25588" Variable="Server_ServerCapabilities_RoleSet_SecurityKeyServerPush_EndpointsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityKeyServerPush_EndpointsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=8;i=6074" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__StaticNumericNodeIdRange" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__StaticNumericNodeIdRange</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11198" Variable="Server_ServerCapabilities_HistoryServerCapabilities_UpdateDataCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_UpdateDataCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V59" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V59" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V59</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V4" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V4" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V4</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=8;i=6075" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__StaticStringNodeIdPattern" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext_UAClientConfig__StaticStringNodeIdPattern</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11199" Variable="Server_ServerCapabilities_HistoryServerCapabilities_DeleteRawCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_DeleteRawCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V5" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V5" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V5</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/STOP_EFECTO" Variable="PLCnext_Arp_Plc_Eclr_STOP_EFECTO" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_STOP_EFECTO</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V6" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V6" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V6</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_MonitoredItemEvent" Variable="Server_VendorServerInfo_ObjectStatistics_MonitoredItemEvent" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_MonitoredItemEvent</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V7" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V7" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V7</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V8" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V8" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V8</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=16248" Variable="Server_ServerCapabilities_RoleSet_Supervisor_Applications" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Supervisor_Applications</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V9" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V9" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V9</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=25605" Variable="Server_ServerCapabilities_RoleSet_SecurityKeyServerAccess_ApplicationsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityKeyServerAccess_ApplicationsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=25606" Variable="Server_ServerCapabilities_RoleSet_SecurityKeyServerAccess_Applications" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityKeyServerAccess_Applications</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=25607" Variable="Server_ServerCapabilities_RoleSet_SecurityKeyServerAccess_EndpointsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityKeyServerAccess_EndpointsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=19091" Variable="Server_ServerCapabilities_HistoryServerCapabilities_ServerTimestampSupported" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_ServerTimestampSupported</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral11.M0" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral11_M0" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral11_M0</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=2267" Variable="Server_ServiceLevel" EnableWrite="1" EnableRead="1">Server_ServiceLevel</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=2269" Variable="Server_ServerCapabilities_ServerProfileArray" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_ServerProfileArray</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V10" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V10" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V10</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_UaReferenceType" Variable="Server_VendorServerInfo_ObjectStatistics_UaReferenceType" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_UaReferenceType</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_UaVariable" Variable="Server_VendorServerInfo_ObjectStatistics_UaVariable" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_UaVariable</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V11" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V11" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V11</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V60" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V60" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V60</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V12" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V12" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V12</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_UaDataType" Variable="Server_VendorServerInfo_ObjectStatistics_UaDataType" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_UaDataType</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V61" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V61" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V61</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V13" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V13" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V13</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V14" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V14" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V14</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V15" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V15" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V15</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_Session" Variable="Server_VendorServerInfo_ObjectStatistics_Session" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_Session</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V16" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V16" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V16</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V17" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V17" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V17</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V18" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V18" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V18</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15527" Variable="Server_ServerCapabilities_RoleSet_SecurityAdmin_EndpointsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityAdmin_EndpointsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V19" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V19" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V19</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=16204" Variable="Server_ServerCapabilities_RoleSet_AuthenticatedUser_Applications" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_AuthenticatedUser_Applications</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=2;i=15033" Variable="Server_Namespaces_http___opcfoundation_org_UA_DI__DefaultAccessRestrictions" EnableWrite="1" EnableRead="1">Server_Namespaces_http___opcfoundation_org_UA_DI__DefaultAccessRestrictions</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11702" Variable="Server_ServerCapabilities_MaxArrayLength" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_MaxArrayLength</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=16259" Variable="Server_ServerCapabilities_RoleSet_SecurityAdmin_Applications" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_SecurityAdmin_Applications</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11705" Variable="Server_ServerCapabilities_OperationLimits_MaxNodesPerRead" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxNodesPerRead</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11273" Variable="Server_ServerCapabilities_HistoryServerCapabilities_MaxReturnDataValues" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_MaxReturnDataValues</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11274" Variable="Server_ServerCapabilities_HistoryServerCapabilities_MaxReturnEventValues" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_MaxReturnEventValues</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11707" Variable="Server_ServerCapabilities_OperationLimits_MaxNodesPerWrite" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxNodesPerWrite</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=12911" Variable="Server_ServerCapabilities_MaxByteStringLength" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_MaxByteStringLength</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11275" Variable="Server_ServerCapabilities_HistoryServerCapabilities_InsertAnnotationCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_InsertAnnotationCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_UaMutex" Variable="Server_VendorServerInfo_ObjectStatistics_UaMutex" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_UaMutex</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11709" Variable="Server_ServerCapabilities_OperationLimits_MaxNodesPerMethodCall" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxNodesPerMethodCall</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=5;s=ThisDevice.ManufacturerUri" Variable="DeviceSet_AXC_F_1152_ManufacturerUri" EnableWrite="1" EnableRead="1">DeviceSet_AXC_F_1152_ManufacturerUri</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=2271" Variable="Server_ServerCapabilities_LocaleIdArray" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_LocaleIdArray</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15412" Variable="Server_ServerCapabilities_RoleSet_Anonymous_ApplicationsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Anonymous_ApplicationsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=2272" Variable="Server_ServerCapabilities_MinSupportedSampleRate" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_MinSupportedSampleRate</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15413" Variable="Server_ServerCapabilities_RoleSet_Anonymous_EndpointsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Anonymous_EndpointsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;g=a29d8c94-ce2c-4559-9915-f67768614416" Variable="Server_VendorServerInfo_Trace_StackTraceActive" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_Trace_StackTraceActive</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_UaReference" Variable="Server_VendorServerInfo_ObjectStatistics_UaReference" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_UaReference</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15414" Variable="Server_ServerCapabilities_RoleSet_AuthenticatedUser_ApplicationsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_AuthenticatedUser_ApplicationsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15415" Variable="Server_ServerCapabilities_RoleSet_AuthenticatedUser_EndpointsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_AuthenticatedUser_EndpointsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15416" Variable="Server_ServerCapabilities_RoleSet_Observer_ApplicationsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Observer_ApplicationsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15417" Variable="Server_ServerCapabilities_RoleSet_Observer_EndpointsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Observer_EndpointsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15418" Variable="Server_ServerCapabilities_RoleSet_Operator_ApplicationsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Operator_ApplicationsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=1;s=ObjectStatistics_UaVariableType" Variable="Server_VendorServerInfo_ObjectStatistics_UaVariableType" EnableWrite="1" EnableRead="1">Server_VendorServerInfo_ObjectStatistics_UaVariableType</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=5;s=ThisDevice.DeviceRevision" Variable="DeviceSet_AXC_F_1152_DeviceRevision" EnableWrite="1" EnableRead="1">DeviceSet_AXC_F_1152_DeviceRevision</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=16193" Variable="Server_ServerCapabilities_RoleSet_Anonymous_Applications" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Anonymous_Applications</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V20" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V20" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V20</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V21" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V21" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V21</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V22" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V22" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V22</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V23" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V23" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V23</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V24" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V24" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V24</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V25" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V25" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V25</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V26" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V26" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V26</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/RitmoEspiral21.M40" Variable="PLCnext_Arp_Plc_Eclr_RitmoEspiral21_M40" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_RitmoEspiral21_M40</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V27" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V27" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V27</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V28" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V28" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V28</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=6;s=Arp.Plc.Eclr/Q_EV_V29" Variable="PLCnext_Arp_Plc_Eclr_Q_EV_V29" EnableWrite="1" EnableRead="1">PLCnext_Arp_Plc_Eclr_Q_EV_V29</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=16215" Variable="Server_ServerCapabilities_RoleSet_Observer_Applications" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Observer_Applications</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11710" Variable="Server_ServerCapabilities_OperationLimits_MaxNodesPerBrowse" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxNodesPerBrowse</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11711" Variable="Server_ServerCapabilities_OperationLimits_MaxNodesPerRegisterNodes" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxNodesPerRegisterNodes</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11712" Variable="Server_ServerCapabilities_OperationLimits_MaxNodesPerTranslateBrowsePathsToNodeIds" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxNodesPerTranslateBrowsePathsToNodeIds</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11713" Variable="Server_ServerCapabilities_OperationLimits_MaxNodesPerNodeManagement" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxNodesPerNodeManagement</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11281" Variable="Server_ServerCapabilities_HistoryServerCapabilities_InsertEventCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_InsertEventCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11714" Variable="Server_ServerCapabilities_OperationLimits_MaxMonitoredItemsPerCall" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_OperationLimits_MaxMonitoredItemsPerCall</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11282" Variable="Server_ServerCapabilities_HistoryServerCapabilities_ReplaceEventCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_ReplaceEventCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=11283" Variable="Server_ServerCapabilities_HistoryServerCapabilities_UpdateEventCapability" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_HistoryServerCapabilities_UpdateEventCapability</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=5;s=ThisDevice.RevisionCounter" Variable="DeviceSet_AXC_F_1152_RevisionCounter" EnableWrite="1" EnableRead="1">DeviceSet_AXC_F_1152_RevisionCounter</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=2994" Variable="Server_Auditing" EnableWrite="1" EnableRead="1">Server_Auditing</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15423" Variable="Server_ServerCapabilities_RoleSet_Operator_EndpointsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Operator_EndpointsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15424" Variable="Server_ServerCapabilities_RoleSet_Engineer_ApplicationsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Engineer_ApplicationsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=3;i=6001" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__IsNamespaceSubset" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__IsNamespaceSubset</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15425" Variable="Server_ServerCapabilities_RoleSet_Engineer_EndpointsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Engineer_EndpointsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="i=15426" Variable="Server_ServerCapabilities_RoleSet_Supervisor_ApplicationsExclude" EnableWrite="1" EnableRead="1">Server_ServerCapabilities_RoleSet_Supervisor_ApplicationsExclude</ItemName>
+</Item>
+<Item>
+<ItemName NodeId="ns=3;i=6003" Variable="Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__NamespaceUri" EnableWrite="1" EnableRead="1">Server_Namespaces_http___phoenixcontact_com_OpcUA_PLCnext__NamespaceUri</ItemName>
+</Item>
+</ItemList>
+</Session>
+</SessionList>
+</UAServer>
+</OPCUAList>
+</OPCClientEditor>

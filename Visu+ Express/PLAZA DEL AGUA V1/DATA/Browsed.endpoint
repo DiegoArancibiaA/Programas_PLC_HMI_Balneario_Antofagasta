@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EndpointList>
+<EndpointInfo>
+<EPName EPSec="2" EPUsr="opcua" EPPwd="1234567890" EPStrSec="0">opc.tcp://192.168.1.10:4840</EPName>
+</EndpointInfo>
+<LastEndpoint EPSec="2" EPUsr="opcua" EPPwd="1234567890" EPStrSec="0">opc.tcp://192.168.1.10:4840</LastEndpoint>
+</EndpointList>
